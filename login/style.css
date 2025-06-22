@@ -1,13 +1,25 @@
-/* Background and Centering */
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+
+/* Background and Centering */
+body {
   font-family: Arial, sans-serif;
   background: linear-gradient(to right, #ffb6c1, #fceabb);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Outer Container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /* Login Box Styling */
@@ -30,11 +42,9 @@ body {
 }
 
 /* User Icon */
-.user-icon img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  background-color: #ccc;
+.user-icon {
+  font-size: 60px;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -42,12 +52,14 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 label {
   font-weight: bold;
+  text-align: left;
   margin: 10px 0 5px;
+  color: #333;
 }
 
 input {
@@ -61,7 +73,6 @@ input {
 
 /* Button Styling */
 button {
-  align-self: flex-end;
   padding: 10px 20px;
   background-color: #000;
   color: #fff;
