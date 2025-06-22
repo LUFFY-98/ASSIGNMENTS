@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #fff;
+  color: #333;
+}
+
+.navbar {
+  background-color: #1a1a1a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo {
+  font-size: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 12px;
+}
+
+nav ul li.active a {
+  background-color: #333;
+  border-radius: 4px;
+}
+
+.search {
+  display: flex;
+}
+
+.search input {
+  padding: 6px;
+  border: none;
+  border-radius: 4px 0 0 4px;
+}
+
+.search button {
+  padding: 6px 10px;
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.hero {
+  background-color: #49e619;
+  padding: 80px 40px;
+  color: white;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+}
+
+.hero button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  /* transition: background-color 0.3s ease; */
+}
+
+.content {
+  padding: 60px 40px;
+  text-align: left;
+  max-width: 1000px;
+}
+
+.content h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.content h2 span {
+  color: gray;
+  font-weight: normal;
+}
+
+.description {
+  color: gray;
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+  max-width: 900px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 220px;
+  height: 100px;
+  background-color: #eaeaea;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #777;
+  font-size: 20px;
+  border-radius: 8px;
+}
+button:hover {
+  background-color: #333;
+  color: rgb(184, 236, 64);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+  
+}
+nav ul li a:hover {
+  background-color: #333;
+  color: rgb(224, 224, 7);
+  border-radius: 4px;
+}

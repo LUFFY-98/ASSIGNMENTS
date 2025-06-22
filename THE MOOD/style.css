@@ -1,0 +1,57 @@
+/* Reset and base styles */
+body {
+  margin: 0;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, monospace;
+}
+
+/* Top header: THE MOOD + search icon */
+.top-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  padding: 20px 0;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.center-title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.search {
+    position: absolute;
+    right: 12px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+/* Navigation bar with full-width menu */
+.menu-bar {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  background-color: white;
+}
+
+.menu-bar ul {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-bar li {
+  text-align: center;
+  font-size: 15px;
+  cursor: pointer;
+  padding: 15px 0;
+}
+
+
+/* Remove last right border */
+.menu-bar li:last-child {
+  border-right: none;
+}

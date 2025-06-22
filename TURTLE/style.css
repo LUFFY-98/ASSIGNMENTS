@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.yellowbar {
+  background-color: #f5d328;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 20px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #003049;
+}
+
+.logo span {
+  font-weight: 800;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  color: #003049;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #0057a8;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}

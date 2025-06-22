@@ -1,0 +1,175 @@
+/* RESET + BASE */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* HEADER SECTION */
+#header-container {
+  background: linear-gradient(#27cd27, #37beca);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  align-items: center;
+  padding: 1rem;
+}
+
+/* NAVIGATION */
+nav > li {
+  display: inline-block;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  transition: 0.3s;
+  margin-left: 16px;
+}
+
+nav a:hover {
+  color: rgb(0, 4, 255);
+  background-color: #deec0f;
+  border-radius: 25px;
+}
+
+/* HEADER BUTTONS */
+#signup,
+#login {
+  padding: 8px 16px;
+  border: 2px solid black;
+  border-radius: 8px;
+  font-weight: bold;
+  color: #fff;
+}
+
+#signup {
+  background-color: #27cd27;
+  margin-right: 16px;
+}
+
+#login {
+  background-color: #37beca;
+}
+
+#signup:hover {
+  background-color: #ec160e;
+}
+
+#login:hover {
+  background-color: #e27521;
+}
+
+/* MAIN CONTAINER WITH BACKGROUND IMAGE */
+#main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background-image: url("s3.jpg");
+  background-size: cover;
+  background-position: center;
+  flex-wrap: wrap;
+  gap: 90px;
+}
+
+/* SLOGAN TEXT */
+.hi {
+  width: 40%;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+  padding: 20px;
+}
+
+.hi h1 {
+  font-size: 1.7rem;
+  margin-bottom: 10px;
+}
+
+.hi p {
+  margin-top: 10px;
+  line-height: 1.6;
+}
+
+/* ROUNDED BUTTONS */
+.hi button {
+  padding: 12px 24px;
+  margin: 10px 10px 0 0;
+  border-radius: 30px;
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.hi button:hover {
+  background-color: white;
+  color: black;
+  transform: scale(1.05);
+}
+
+/* LAMBORGHINI IMAGE */
+.image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#lambo {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+.cta-buttons {
+  margin-top: 20px;
+  display: flex;
+  gap: 15px;
+}
+.rounded-btn {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  padding: 10px 22px;
+  border-radius: 25px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.rounded-btn:hover {
+  background-color: white;
+  color: #000;
+}
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #12ea12;
+}
+.boxx > div {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: solid 2px #16e127;
+  border-radius: 10px;
+  display: flex;
+  height: 40vh;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.boxx {
+  display: flex;
+}
